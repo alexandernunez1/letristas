@@ -1,10 +1,17 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+
+import Home from './pages/home/Home'
+
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes 
+} from 'react-router-dom'
 
 const App = () => {
   return (
     <div className="App">
-          social media for letter enthusiasts
+         <Home />
     </div>
   );
 }

@@ -1,0 +1,96 @@
+.topbarContainer {
+    height: 50px;
+    width: 100%;
+    background-color: #5465ff;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    justify-content: center;
+  }
+  
+  .topbarLeft {
+    flex: 3;
+  }
+
+  .topbarImg {
+    width: 45px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .logo {
+    font-size: 24px !important;
+    margin-left: 10px !important;
+    margin-bottom: 30px !important;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .topbarCenter {
+    flex: 5;
+  }
+  
+  .searchbar {
+    width: 100%;
+    height: 30px;
+    background-color: #788bff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchIcon {
+    font-size: 20px !important;
+    margin-left: 10px;
+    color: #bfd7ff;
+  }
+  
+  .searchInput {
+    border: none;
+    width: 70%;
+    background-color: #788bff;
+    color: #e2fdff;
+  }
+  
+  .searchInput:focus {
+    outline: none;
+  }
+  
+  .topbarRight {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+  }
+
+  .topbarLink {
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .homeIcon {
+    margin-right: 20px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .topbarIcons {
+    display: flex;
+    cursor: pointer;
+
+  }
+  .personIcon {
+      margin-left: 10px;
+      cursor: pointer;
+  }
+  
+  ::placeholder {
+      color: #e2fdff;
+  }
